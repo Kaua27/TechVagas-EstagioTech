@@ -38,6 +38,8 @@ namespace TechVagas_EstagioTech.Model.Entities
 
         [Column("totalhorassemanais")]
         public string? TotalHorasSemanis { get; set; }
+        [Column("datacandidatura")]
+        public string? Datacandidatura { get; set; }
 
         public ConcedenteModel? Concedente { get; set; }
 		public int concedenteId { get; set; }
